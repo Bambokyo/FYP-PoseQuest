@@ -61,7 +61,7 @@ def knn_M(query, dataset, K, method='knn', metric='euclidean'):
         pck = np.sum(correct_keypoints) / len(correct_keypoints)
         pck_list.append(pck)
 
-    # mean_mse = np.mean(mse_list)
+    # mean_msee = np.mean(mse_list)
     mean_mpjse = np.mean(mpjse_list)
     mean_pck = np.mean(pck_list)
 
