@@ -78,7 +78,12 @@ We used the **HDM05 Motion Capture Dataset**:
 | 64 frames  | 0.1210                         | 0.1700                        |
 
 ---
-## Base Paper References
+
+## Base Paper Reference
+
+- **Krüger, B., Tautges, J., Weber, A., & Zinke, A. (2010). Fast Local and Global Similarity Searches in Large Motion Capture Databases** [[Paper Link]](https://cg.cs.uni-bonn.de/backend/v1/files/publications/FastSimilaritySearch.pdf)
+
+## References
 
 Our work builds upon and critically analyzes the following studies:
 
