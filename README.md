@@ -10,7 +10,6 @@ PoseQuest is a hybrid system that optimizes the retrieval of human poses from la
 - [Dataset](#dataset)
 - [Experiments and Results](#experiments-and-results)
 - [Base Paper References](#base-paper-references)
-- [How to Run](#how-to-run)
 - [Future Work](#future-work)
 
 ---
