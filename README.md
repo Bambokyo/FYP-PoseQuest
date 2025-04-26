@@ -68,7 +68,7 @@ We used the **HDM05 Motion Capture Dataset**:
 
 ---
 
-### Table 2: Comparison of PoseQuest with Base Paper Algorithm
+### Table 2: Comparison of PoseQuest with the Base Paper Algorithm
 
 | Data Size  | Base Paper Algorithm (seconds) | PoseQuest Algorithm (seconds) |
 |------------|--------------------------------|-------------------------------|
