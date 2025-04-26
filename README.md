@@ -57,19 +57,25 @@ We used the **HDM05 Motion Capture Dataset**:
 - **Accuracy:** Maintains competitive accuracy using MPJSE (Mean per Joint Square Error) and PCK (Percentage of Correct Keypoints).
 - **Efficiency:** Integration of K-means clustering boosts retrieval speed without compromising essential pose features.
 
-Comparison of PoseQuest with Subsequence DTW
-Data Size | Subsequence DTW (seconds) | PoseQuest Algorithm (seconds)
-30 frames | 0.3022 | 0.0490
-48 frames | 0.3333 | 0.1720
-64 frames | 0.4489 | 0.1700
+---
+
+### Table 1: Comparison of PoseQuest with Subsequence DTW
+
+| Data Size  | Subsequence DTW (seconds) | PoseQuest Algorithm (seconds) |
+|------------|----------------------------|-------------------------------|
+| 30 frames  | 0.3022                     | 0.0490                        |
+| 48 frames  | 0.3333                     | 0.1720                        |
+| 64 frames  | 0.4489                     | 0.1700                        |
 
 ---
 
-Comparison of PoseQuest with Base Paper Algorithm
-Data Size | Base Paper Algorithm (seconds) | PoseQuest Algorithm (seconds)
-30 frames | 0.1108 | 0.0490
-48 frames | 0.2020 | 0.1720
-64 frames | 0.1210 | 0.1700
+### Table 2: Comparison of PoseQuest with Base Paper Algorithm
+
+| Data Size  | Base Paper Algorithm (seconds) | PoseQuest Algorithm (seconds) |
+|------------|--------------------------------|-------------------------------|
+| 30 frames  | 0.1108                         | 0.0490                        |
+| 48 frames  | 0.2020                         | 0.1720                        |
+| 64 frames  | 0.1210                         | 0.1700                        |
 
 ---
 ## Base Paper References
