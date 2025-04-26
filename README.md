@@ -57,14 +57,21 @@ We used the **HDM05 Motion Capture Dataset**:
 - **Accuracy:** Maintains competitive accuracy using MPJSE (Mean per Joint Square Error) and PCK (Percentage of Correct Keypoints).
 - **Efficiency:** Integration of K-means clustering boosts retrieval speed without compromising essential pose features.
 
-Sample Alignment Time Comparison:
-| Method | 30 Frames | 48 Frames | 64 Frames |
-| :----- | --------: | ---------:| ---------:|
-| Subsequence DTW | 0.302 sec | 0.333 sec | 0.449 sec |
-| **PoseQuest** | **0.049 sec** | **0.172 sec** | **0.170 sec** |
+Comparison of PoseQuest with Subsequence DTW
+Data Size | Subsequence DTW (seconds) | PoseQuest Algorithm (seconds)
+30 frames | 0.3022 | 0.0490
+48 frames | 0.3333 | 0.1720
+64 frames | 0.4489 | 0.1700
 
 ---
 
+Comparison of PoseQuest with Base Paper Algorithm
+Data Size | Base Paper Algorithm (seconds) | PoseQuest Algorithm (seconds)
+30 frames | 0.1108 | 0.0490
+48 frames | 0.2020 | 0.1720
+64 frames | 0.1210 | 0.1700
+
+---
 ## Base Paper References
 
 Our work builds upon and critically analyzes the following studies:
@@ -78,27 +85,6 @@ Our work builds upon and critically analyzes the following studies:
 We also took inspiration from:
 - **Subsequence Dynamic Time Warping**, AudioLabs Erlangen [[Tutorial Link]](https://www.audiolabs-erlangen.de/resources/MIR/FMP/C7/C7S2_SubsequenceDTW.html)
 
----
-
-## How to Run
-
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/yourusername/PoseQuest.git
-   cd PoseQuest
-   ```
-2. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-3. Run the main script:
-   ```bash
-   python main.py
-   ```
-
-Make sure you have the **HDM05 dataset** downloaded and available at the appropriate path.
-
----
 
 ## Future Work
 
